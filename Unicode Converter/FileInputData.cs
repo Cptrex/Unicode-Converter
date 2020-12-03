@@ -22,7 +22,7 @@ namespace Unicode_Converter
             FullName = fi.Name;
             InputPath = fi.DirectoryName + @"\" + FullName;
             Name = FullName.Replace(fi.Extension, "");
-            OutputPath = InputPath.Replace(FullName,"") + Name + "NEW" + fi.Extension;
+            OutputPath = InputPath.Replace(FullName, "");
         }
     }
 }
